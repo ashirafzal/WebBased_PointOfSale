@@ -1,0 +1,36 @@
+:root {
+    --main-bg-color: #FFF; 
+    --text-color : #000;
+    --heading : #000;
+    --para : #000;
+  }
+
+body{
+    background: var(--main-bg-color);
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+label{
+    color: var(--text-color);
+}
+
+#switch2{
+    display: none;
+}
+
+#switch{
+    float: right;
+    margin: 1rem;
+    border: transparent;
+    background: url('../icons/moon-black.png') no-repeat scroll 0 0 transparent;
+    background-size: 2rem 2rem;
+    height: 3rem;
+    width: 3rem;
+}

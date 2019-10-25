@@ -1,0 +1,36 @@
+:root {
+    --main-bg-color: #000; 
+    --text-color : #FFF;
+    --heading : #FFFF;
+    --para : #FFFF;
+  }
+
+body{
+    background: var(--main-bg-color);
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+label{
+    color: var(--text-color);
+}
+
+#switch{
+    display: none;
+}
+
+#switch2{
+    float: right;
+    margin: 1rem;
+    border: transparent;
+    background: url('../icons/sun-white.png') no-repeat scroll 0 0 transparent;
+    background-size: 2rem 2rem;
+    height: 3rem;
+    width: 3rem;
+}
